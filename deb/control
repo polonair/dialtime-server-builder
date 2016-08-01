@@ -1,0 +1,10 @@
+Package: dialtime-server
+Version: 0.1.0
+Section: misc
+Architecture: all
+Depends: apache2 (>=2.4), mysql-server (>=5.5), php5-cli (>=5.5.9), php5-mysql (>=5.5.9), php5-curl(>=5.5.9)
+Maintainer: Alexander Mosyagin <fixnim@gmail.com>
+Origin: Alexander Mosyagin
+Installed-size: XXXXX
+Description: Dialtime Server
+ Dialtime Server for Target-Call

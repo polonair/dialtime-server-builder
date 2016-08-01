@@ -1,0 +1,5 @@
+/etc/dialtime/server/config.yml
+/etc/dialtime/server/config_dev.yml
+/etc/dialtime/server/config_prod.yml
+/etc/dialtime/server/parameters.yml
+/etc/cron.d/dialtime-server

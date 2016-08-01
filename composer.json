@@ -1,0 +1,25 @@
+{
+	"autoload":          { "classmap": [ "app/AppKernel.php", "app/AppCache.php" ] },
+    "config":            { "secure-http": false },
+    "prefer-stable":     true,
+    "minimum-stability": "dev",
+    "require": 
+    {
+        "php":                            ">=5.5.9",
+        "symfony/symfony":                "3.0.*",
+        "doctrine/orm":                   "^2.5",
+        "doctrine/doctrine-bundle":       "^1.6",
+        "doctrine/doctrine-cache-bundle": "^1.2",
+        "symfony/swiftmailer-bundle":     "^2.3",
+        "symfony/monolog-bundle":         "^2.8",
+        "dialtime/server":                "^0.1"
+    },
+    "repositories": 
+    [
+        { "type": "vcs", "url": "git@github.com:polonair/dialtime-server.git" },
+        { "type": "vcs", "url": "git@github.com:polonair/dialtime-common.git" },
+        { "type": "vcs", "url": "git@github.com:polonair/dialtime.git" },
+        { "type": "vcs", "url": "git@github.com:polonair/dialtime-model.git" },
+        { "type": "vcs", "url": "git@github.com:polonair/smsi.git" }
+    ]
+}
