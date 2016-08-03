@@ -1,0 +1,22 @@
+Template: dialtime_server_db_host
+Type: string
+Default: 127.0.0.1
+Description: database host
+
+Template: dialtime_server_db_port
+Type: string
+Default: 3306
+Description: database port
+
+Template: dialtime_server_db_name
+Type: string
+Description: database name
+
+Template: dialtime_server_db_user
+Type: string
+Default: root
+Description: database user
+
+Template: dialtime_server_db_password
+Type: password
+Description: database user password

@@ -1,0 +1,17 @@
+#!/bin/sh
+
+if ! getent group dialtime >/dev/null; then
+        addgroup --system dialtime >/dev/null
+fi
+
+if ! getent passwd dialtime >/dev/null; then
+        adduser \
+          --system \
+          --disabled-login \
+          --ingroup dialtime \
+          --no-create-home \
+          --home /nonexistent \
+          --gecos "Dialtime" \
+          --shell /bin/false \
+          dialtime  >/dev/null
+fi
