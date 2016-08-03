@@ -1,7 +1,7 @@
 #!/bin/sh
 
-groupadd dialtime
-useradd dialtime -g dialtime
+. /usr/share/debconf/confmodule
+
 chown -R dialtime:dialtime /var/cache/dialtime /var/lib/dialtime /var/log/dialtime
 chmod -R 2770 /var/cache/dialtime /var/lib/dialtime /var/log/dialtime
 service cron restart

@@ -1,0 +1,54 @@
+#!/bin/sh
+
+# Подключение команд debconf
+. /usr/share/debconf/confmodule
+
+case "$1" in
+configure|reconfigure)
+
+parameters="/etc/dialtime/server/parameters.yml"
+
+# Запрос
+db_input critical "dialtime_server_db_host" || true # инициализация
+db_go || true # вывод запроса на экран
+db_input critical "dialtime_server_db_port" || true # инициализация
+db_go || true # вывод запроса на экран
+db_input critical "dialtime_server_db_name" || true # инициализация
+db_go || true # вывод запроса на экран
+db_input critical "dialtime_server_db_user" || true # инициализация
+db_go || true # вывод запроса на экран
+db_input critical "dialtime_server_db_password" || true # инициализация
+db_go || true # вывод запроса на экран
+
+
+# Обработка ответа
+db_get "dialtime_server_db_host"
+db_host="$RET" 
+db_get "dialtime_server_db_port"
+db_port="$RET" 
+db_get "dialtime_server_db_name"
+db_name="$RET" 
+db_get "dialtime_server_db_user"
+db_user="$RET" 
+db_get "dialtime_server_db_password"
+db_passwd="$RET" 
+
+echo "# parameters" > $parameters
+echo "parameters:" >> $parameters
+echo "    database_host: $db_host" >> $parameters
+echo "    database_port: $db_port" >> $parameters
+echo "    database_name: $db_name" >> $parameters
+echo "    database_user: $db_user" >> $parameters
+echo "    database_password: $db_passwd" >> $parameters
+echo "    mailer_transport: smtp" >> $parameters
+echo "    mailer_host: 127.0.0.1" >> $parameters
+echo "    mailer_user: null" >> $parameters
+echo "    mailer_password: null" >> $parameters
+echo "    secret: some_secret" >> $parameters
+
+;;
+*)
+echo "config called with unknown argument \`$1'" >&2
+exit 1
+;;
+esac
