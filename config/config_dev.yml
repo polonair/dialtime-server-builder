@@ -8,6 +8,9 @@ web_profiler:
     toolbar: true
     intercept_redirects: false
 
+smsi:
+    receiver: "+79226890773"
+
 monolog:
     handlers:
         main:
