@@ -2,7 +2,7 @@ imports:
     - { resource: parameters.yml }
 
 parameters:
-    locale: en
+    locale: ru
 
 framework:
     secret:          "%secret%"
@@ -36,3 +36,7 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+smsi:
+    login: "%smsi_login%"
+    password: "%smsi_password%"
