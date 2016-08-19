@@ -1,3 +1,9 @@
+dialtime-server (0.1.5) stable; urgency=medium
+
+  * Bugs fixed.
+
+ -- Alexander Mosyagin <fixnim@gmail.com>  Fri, 19 Aug 2016 23:38:36 -0400
+
 dialtime-server (0.1.4) stable; urgency=medium
 
   * Dependencies updated.
