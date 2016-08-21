@@ -1,3 +1,11 @@
+dialtime-server (0.1.7) stable; urgency=medium
+
+  * Dependecy on mysql-server removed.
+  * Parameter 'secret' automatically generated.
+  * Added parameter for smsi.
+
+ -- Alexander Mosyagin <fixnim@gmail.com>  Sun, 21 Aug 2016 15:31:37 -0400
+
 dialtime-server (0.1.6) stable; urgency=medium
 
   * Bugs fixed.
