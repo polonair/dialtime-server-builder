@@ -19,7 +19,10 @@ db_input critical "dialtime_server_db_user" || true # инициализация
 db_go || true # вывод запроса на экран
 db_input critical "dialtime_server_db_password" || true # инициализация
 db_go || true # вывод запроса на экран
-
+db_input critical "dialtime_server_smsi_login" || true # инициализация
+db_go || true # вывод запроса на экран
+db_input critical "dialtime_server_smsi_password" || true # инициализация
+db_go || true # вывод запроса на экран
 
 # Обработка ответа
 db_get "dialtime_server_db_host"
@@ -32,6 +35,10 @@ db_get "dialtime_server_db_user"
 db_user="$RET" 
 db_get "dialtime_server_db_password"
 db_passwd="$RET" 
+db_get "dialtime_server_smsi_login"
+smsi_login="$RET"
+db_get "dialtime_server_smsi_password"
+smsi_password="$RET"
 
 echo "# parameters" > $parameters
 echo "parameters:" >> $parameters
@@ -44,6 +51,8 @@ echo "    mailer_transport: smtp" >> $parameters
 echo "    mailer_host: 127.0.0.1" >> $parameters
 echo "    mailer_user: null" >> $parameters
 echo "    mailer_password: null" >> $parameters
+echo "    smsi_login: $smsi_login" >> $parameters
+echo "    smsi_password: $smsi_password" >> $parameters
 echo "    secret: some_secret" >> $parameters
 
 ;;
