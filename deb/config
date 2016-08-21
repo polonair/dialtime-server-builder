@@ -40,6 +40,8 @@ smsi_login="$RET"
 db_get "dialtime_server_smsi_password"
 smsi_password="$RET"
 
+secret=`date | md5sum | grep -o [a-z0-9]*`
+
 echo "# parameters" > $parameters
 echo "parameters:" >> $parameters
 echo "    database_host: $db_host" >> $parameters
@@ -53,7 +55,7 @@ echo "    mailer_user: null" >> $parameters
 echo "    mailer_password: null" >> $parameters
 echo "    smsi_login: $smsi_login" >> $parameters
 echo "    smsi_password: $smsi_password" >> $parameters
-echo "    secret: some_secret" >> $parameters
+echo "    secret: $secret" >> $parameters
 
 ;;
 *)
