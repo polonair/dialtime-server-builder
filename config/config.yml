@@ -1,11 +1,15 @@
 imports:
     - { resource: parameters.yml }
+    - { resource: security.yml }
 
 parameters:
     locale: ru
 
 framework:
     secret:          "%secret%"
+    router:
+        resource: "/etc/dialtime/server/routing.yml"
+        strict_requirements: ~
     form:            ~
     validation:      { enable_annotations: true }
     default_locale:  "%locale%"
