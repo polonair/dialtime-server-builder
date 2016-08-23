@@ -45,7 +45,7 @@ db_get "dialtime_server_server_id"
 server_id="$RET"
 
 
-secret=`date | md5sum | grep -o [a-z0-9]*`
+secret=`date | md5sum | grep -o '[a-z0-9]*'`
 
 echo "# parameters" > $parameters
 echo "parameters:" >> $parameters
