@@ -30,3 +30,8 @@ Template: dialtime_server_smsi_password
 Type: string
 Default: ~
 Description: smsc password
+
+Template: dialtime_server_server_id
+Type: string
+Default: 100
+Description: server id

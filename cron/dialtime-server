@@ -1,1 +1,1 @@
-*/1 * * * * dialtime /usr/bin/dialtime-server calliope:server:cron
+*/1 * * * * dialtime /usr/bin/dialtime-server dialtime:server:update
