@@ -1,8 +1,8 @@
 Package: dialtime-server
-Version: 0.1.11
+Version: 0.1.12
 Section: misc
 Architecture: all
-Depends: debconf, php-cli (>=5.5.9), php-xml (>=5.5.9), php-mysql (>=5.5.9), php-curl(>=5.5.9)
+Depends: debconf, php5-cli (>=5.5.9), php5-xml (>=5.5.9), php5-mysql (>=5.5.9), php5-curl(>=5.5.9)
 Maintainer: Alexander Mosyagin <fixnim@gmail.com>
 Origin: Alexander Mosyagin
 Installed-size: XXXXX
