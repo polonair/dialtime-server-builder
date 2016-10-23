@@ -7,7 +7,7 @@ use Symfony\Component\Debug\Debug;
 
 umask(0002);
 
-set_time_limit(0);
+set_time_limit(30);
 
 $loader = require '/usr/share/dialtime/server/app/autoload.php';
 
