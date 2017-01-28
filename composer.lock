@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3697e511e3edca20ce3d81d6d1ccfffa",
+    "content-hash": "8e2499d34d445cdb1dd147b7fd4b09f9",
     "packages": [
         {
             "name": "dialtime/common",
-            "version": "0.1.11",
+            "version": "0.1.12",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-common.git",
-                "reference": "e66424dfe54ac14aa4ec7a01d6ae2cbaaad3d31a"
+                "reference": "f6d2f6963d02751203d496dbb90bbe1953a939ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-common/zipball/e66424dfe54ac14aa4ec7a01d6ae2cbaaad3d31a",
-                "reference": "e66424dfe54ac14aa4ec7a01d6ae2cbaaad3d31a",
+                "url": "https://api.github.com/repos/polonair/dialtime-common/zipball/f6d2f6963d02751203d496dbb90bbe1953a939ba",
+                "reference": "f6d2f6963d02751203d496dbb90bbe1953a939ba",
                 "shasum": ""
             },
             "require": {
                 "dialtime/dialtime": "0.1.1",
-                "dialtime/model": "0.1.11",
+                "dialtime/model": "0.1.12",
                 "erusev/parsedown": "^1.6",
                 "polonair/smsi": "0.1.4"
             },
@@ -45,10 +45,10 @@
             "description": "Dialtime Common Bundle",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-common/tree/v0.1.11",
+                "source": "https://github.com/polonair/dialtime-common/tree/v0.1.12",
                 "issues": "https://github.com/polonair/dialtime-common/issues"
             },
-            "time": "2017-01-19T15:38:47+00:00"
+            "time": "2017-01-28T10:56:29+00:00"
         },
         {
             "name": "dialtime/dialtime",
@@ -93,16 +93,16 @@
         },
         {
             "name": "dialtime/model",
-            "version": "0.1.11",
+            "version": "0.1.12",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-model.git",
-                "reference": "0ddb2c2e05bde81ef17fe62e8bd4c579e1a04893"
+                "reference": "a4db6ea3cc901a06f03c86f58808ca1c06faca20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-model/zipball/0ddb2c2e05bde81ef17fe62e8bd4c579e1a04893",
-                "reference": "0ddb2c2e05bde81ef17fe62e8bd4c579e1a04893",
+                "url": "https://api.github.com/repos/polonair/dialtime-model/zipball/a4db6ea3cc901a06f03c86f58808ca1c06faca20",
+                "reference": "a4db6ea3cc901a06f03c86f58808ca1c06faca20",
                 "shasum": ""
             },
             "require": {
@@ -127,27 +127,27 @@
             "description": "Dialtime Model",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-model/tree/v0.1.11",
+                "source": "https://github.com/polonair/dialtime-model/tree/v0.1.12",
                 "issues": "https://github.com/polonair/dialtime-model/issues"
             },
-            "time": "2017-01-19T15:31:31+00:00"
+            "time": "2017-01-28T09:57:56+00:00"
         },
         {
             "name": "dialtime/server",
-            "version": "0.1.13",
+            "version": "0.1.14",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-server.git",
-                "reference": "f244aa8f2d9ffe872b38f4c1621fbfe1fa5ce51d"
+                "reference": "0093d06f40eff4366fe2212f35d26a54f70ffc40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-server/zipball/f244aa8f2d9ffe872b38f4c1621fbfe1fa5ce51d",
-                "reference": "f244aa8f2d9ffe872b38f4c1621fbfe1fa5ce51d",
+                "url": "https://api.github.com/repos/polonair/dialtime-server/zipball/0093d06f40eff4366fe2212f35d26a54f70ffc40",
+                "reference": "0093d06f40eff4366fe2212f35d26a54f70ffc40",
                 "shasum": ""
             },
             "require": {
-                "dialtime/common": "0.1.11"
+                "dialtime/common": "0.1.12"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -168,10 +168,10 @@
             "description": "Dialtime Server Bundle",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-server/tree/v0.1.13",
+                "source": "https://github.com/polonair/dialtime-server/tree/v0.1.14",
                 "issues": "https://github.com/polonair/dialtime-server/issues"
             },
-            "time": "2017-01-19T15:45:47+00:00"
+            "time": "2017-01-28T11:03:06+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -313,28 +313,29 @@
         },
         {
             "name": "doctrine/collections",
-            "version": "v1.3.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a"
+                "reference": "1a4fb7e902202c33cce8c55989b945612943c2ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
-                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/1a4fb7e902202c33cce8c55989b945612943c2ba",
+                "reference": "1a4fb7e902202c33cce8c55989b945612943c2ba",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": "^5.6 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "doctrine/coding-standard": "~0.1@dev",
+                "phpunit/phpunit": "^5.7"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2.x-dev"
+                    "dev-master": "1.3.x-dev"
                 }
             },
             "autoload": {
@@ -375,7 +376,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2015-04-14T22:21:58+00:00"
+            "time": "2017-01-03T10:49:41+00:00"
         },
         {
             "name": "doctrine/common",
@@ -452,16 +453,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "v2.5.9",
+            "version": "v2.5.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "0d2f8187d4b4c7b72d8e2acba359e25c36feaf5e"
+                "reference": "fc376f7a61498e18520cd6fa083752a4ca08072b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/0d2f8187d4b4c7b72d8e2acba359e25c36feaf5e",
-                "reference": "0d2f8187d4b4c7b72d8e2acba359e25c36feaf5e",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/fc376f7a61498e18520cd6fa083752a4ca08072b",
+                "reference": "fc376f7a61498e18520cd6fa083752a4ca08072b",
                 "shasum": ""
             },
             "require": {
@@ -519,20 +520,20 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2017-01-19T13:27:33+00:00"
+            "time": "2017-01-23T23:17:10+00:00"
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "1.6.6",
+            "version": "1.6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "0f0c4df366bd1d36d38a27e2f5ff128e118ac969"
+                "reference": "a01d99bc6c9a6c8a8ace0012690099dd957ce9b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/0f0c4df366bd1d36d38a27e2f5ff128e118ac969",
-                "reference": "0f0c4df366bd1d36d38a27e2f5ff128e118ac969",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/a01d99bc6c9a6c8a8ace0012690099dd957ce9b9",
+                "reference": "a01d99bc6c9a6c8a8ace0012690099dd957ce9b9",
                 "shasum": ""
             },
             "require": {
@@ -600,7 +601,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2017-01-07T21:47:22+00:00"
+            "time": "2017-01-16T12:01:26+00:00"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -1349,25 +1350,25 @@
         },
         {
             "name": "symfony/monolog-bundle",
-            "version": "v2.12.1",
+            "version": "v3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/monolog-bundle.git",
-                "reference": "b0146bdca7ba2a65f3bbe7010423c7393b29ec3f"
+                "reference": "ebce76a39a65495a66c34eb1574cc4b9e35a4e64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/monolog-bundle/zipball/b0146bdca7ba2a65f3bbe7010423c7393b29ec3f",
-                "reference": "b0146bdca7ba2a65f3bbe7010423c7393b29ec3f",
+                "url": "https://api.github.com/repos/symfony/monolog-bundle/zipball/ebce76a39a65495a66c34eb1574cc4b9e35a4e64",
+                "reference": "ebce76a39a65495a66c34eb1574cc4b9e35a4e64",
                 "shasum": ""
             },
             "require": {
-                "monolog/monolog": "~1.18",
+                "monolog/monolog": "~1.22",
                 "php": ">=5.3.2",
-                "symfony/config": "~2.3|~3.0",
-                "symfony/dependency-injection": "~2.3|~3.0",
-                "symfony/http-kernel": "~2.3|~3.0",
-                "symfony/monolog-bridge": "~2.3|~3.0"
+                "symfony/config": "~2.7|~3.0",
+                "symfony/dependency-injection": "~2.7|~3.0",
+                "symfony/http-kernel": "~2.7|~3.0",
+                "symfony/monolog-bridge": "~2.7|~3.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.8",
@@ -1377,7 +1378,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "3.x-dev"
                 }
             },
             "autoload": {
@@ -1405,7 +1406,7 @@
                 "log",
                 "logging"
             ],
-            "time": "2017-01-02T19:04:26+00:00"
+            "time": "2017-01-10T20:01:51+00:00"
         },
         {
             "name": "symfony/polyfill-intl-icu",
@@ -1752,16 +1753,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v3.1.9",
+            "version": "v3.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "8d80e330acaad0780028ecb93fa8e902eb1e9abb"
+                "reference": "358c59fd21f9db7fdb465d1e07fba822d9e18e9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/8d80e330acaad0780028ecb93fa8e902eb1e9abb",
-                "reference": "8d80e330acaad0780028ecb93fa8e902eb1e9abb",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/358c59fd21f9db7fdb465d1e07fba822d9e18e9e",
+                "reference": "358c59fd21f9db7fdb465d1e07fba822d9e18e9e",
                 "shasum": ""
             },
             "require": {
@@ -1829,6 +1830,7 @@
                 "symfony/validator": "self.version",
                 "symfony/var-dumper": "self.version",
                 "symfony/web-profiler-bundle": "self.version",
+                "symfony/workflow": "self.version",
                 "symfony/yaml": "self.version"
             },
             "require-dev": {
@@ -1838,7 +1840,7 @@
                 "doctrine/dbal": "~2.4",
                 "doctrine/doctrine-bundle": "~1.4",
                 "doctrine/orm": "~2.4,>=2.4.5",
-                "egulias/email-validator": "~1.2,>=1.2.1",
+                "egulias/email-validator": "~1.2,>=1.2.8|~2.0",
                 "monolog/monolog": "~1.11",
                 "ocramius/proxy-manager": "~0.4|~1.0|~2.0",
                 "phpdocumentor/reflection-docblock": "^3.0",
@@ -1850,7 +1852,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -1889,7 +1891,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2017-01-12T20:44:00+00:00"
+            "time": "2017-01-12T21:36:55+00:00"
         },
         {
             "name": "twig/twig",
