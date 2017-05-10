@@ -8,21 +8,21 @@
     "packages": [
         {
             "name": "dialtime/common",
-            "version": "0.1.14",
+            "version": "0.1.15",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-common.git",
-                "reference": "b4f97ddb3358b341f8f5c9d20339038c91663571"
+                "reference": "072089847ffe633c8ba26d8937103b5516f7bc3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-common/zipball/b4f97ddb3358b341f8f5c9d20339038c91663571",
-                "reference": "b4f97ddb3358b341f8f5c9d20339038c91663571",
+                "url": "https://api.github.com/repos/polonair/dialtime-common/zipball/072089847ffe633c8ba26d8937103b5516f7bc3d",
+                "reference": "072089847ffe633c8ba26d8937103b5516f7bc3d",
                 "shasum": ""
             },
             "require": {
                 "dialtime/dialtime": "0.1.1",
-                "dialtime/model": "0.1.14",
+                "dialtime/model": "0.1.15",
                 "erusev/parsedown": "^1.6",
                 "polonair/smsi": "0.1.4"
             },
@@ -45,10 +45,10 @@
             "description": "Dialtime Common Bundle",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-common/tree/v0.1.14",
+                "source": "https://github.com/polonair/dialtime-common/tree/v0.1.15",
                 "issues": "https://github.com/polonair/dialtime-common/issues"
             },
-            "time": "2017-05-01T18:51:37+00:00"
+            "time": "2017-05-10T16:58:32+00:00"
         },
         {
             "name": "dialtime/dialtime",
@@ -93,16 +93,16 @@
         },
         {
             "name": "dialtime/model",
-            "version": "0.1.14",
+            "version": "0.1.15",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-model.git",
-                "reference": "8df29c1cd723955936e211fc2e098190a41dfa50"
+                "reference": "60a48e7669bf68f2516364598507b1353678a0eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-model/zipball/8df29c1cd723955936e211fc2e098190a41dfa50",
-                "reference": "8df29c1cd723955936e211fc2e098190a41dfa50",
+                "url": "https://api.github.com/repos/polonair/dialtime-model/zipball/60a48e7669bf68f2516364598507b1353678a0eb",
+                "reference": "60a48e7669bf68f2516364598507b1353678a0eb",
                 "shasum": ""
             },
             "require": {
@@ -127,27 +127,27 @@
             "description": "Dialtime Model",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-model/tree/v0.1.14",
+                "source": "https://github.com/polonair/dialtime-model/tree/v0.1.15",
                 "issues": "https://github.com/polonair/dialtime-model/issues"
             },
-            "time": "2017-05-01T18:41:40+00:00"
+            "time": "2017-05-10T16:45:13+00:00"
         },
         {
             "name": "dialtime/server",
-            "version": "0.1.16",
+            "version": "0.1.17",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-server.git",
-                "reference": "f55cbb2ff63b2c325a596842d5c7d4ccf451cbd0"
+                "reference": "dfe08fc26cce0c15f994f82279d98d2b70180b4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-server/zipball/f55cbb2ff63b2c325a596842d5c7d4ccf451cbd0",
-                "reference": "f55cbb2ff63b2c325a596842d5c7d4ccf451cbd0",
+                "url": "https://api.github.com/repos/polonair/dialtime-server/zipball/dfe08fc26cce0c15f994f82279d98d2b70180b4f",
+                "reference": "dfe08fc26cce0c15f994f82279d98d2b70180b4f",
                 "shasum": ""
             },
             "require": {
-                "dialtime/common": "0.1.14"
+                "dialtime/common": "0.1.15"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -168,10 +168,10 @@
             "description": "Dialtime Server Bundle",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-server/tree/v0.1.16",
+                "source": "https://github.com/polonair/dialtime-server/tree/v0.1.17",
                 "issues": "https://github.com/polonair/dialtime-server/issues"
             },
-            "time": "2017-05-01T18:57:07+00:00"
+            "time": "2017-05-10T17:06:07+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -1296,16 +1296,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.7",
+            "version": "v5.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "56db4ed32a6d5c9824c3ecc1d2e538f663f47eb4"
+                "reference": "9a06dc570a0367850280eefd3f1dc2da45aef517"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/56db4ed32a6d5c9824c3ecc1d2e538f663f47eb4",
-                "reference": "56db4ed32a6d5c9824c3ecc1d2e538f663f47eb4",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/9a06dc570a0367850280eefd3f1dc2da45aef517",
+                "reference": "9a06dc570a0367850280eefd3f1dc2da45aef517",
                 "shasum": ""
             },
             "require": {
@@ -1346,7 +1346,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2017-04-20T17:32:18+00:00"
+            "time": "2017-05-01T15:54:03+00:00"
         },
         {
             "name": "symfony/monolog-bundle",
