@@ -1,5 +1,5 @@
 Package: dialtime-server
-Version: 0.1.23
+Version: 0.1.24
 Section: misc
 Architecture: all
 Depends: debconf, php5-cli (>=5.5.9), php5-mysql (>=5.5.9), php5-curl(>=5.5.9)
