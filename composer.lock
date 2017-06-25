@@ -134,16 +134,16 @@
         },
         {
             "name": "dialtime/server",
-            "version": "0.1.18",
+            "version": "0.1.19",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-server.git",
-                "reference": "41a63799650e5ae05c8be41dc19de2cac5102843"
+                "reference": "0b937a8542addee462c860d0ac787fbce5c2fbac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-server/zipball/41a63799650e5ae05c8be41dc19de2cac5102843",
-                "reference": "41a63799650e5ae05c8be41dc19de2cac5102843",
+                "url": "https://api.github.com/repos/polonair/dialtime-server/zipball/0b937a8542addee462c860d0ac787fbce5c2fbac",
+                "reference": "0b937a8542addee462c860d0ac787fbce5c2fbac",
                 "shasum": ""
             },
             "require": {
@@ -168,10 +168,10 @@
             "description": "Dialtime Server Bundle",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-server/tree/v0.1.18",
+                "source": "https://github.com/polonair/dialtime-server/tree/v0.1.19",
                 "issues": "https://github.com/polonair/dialtime-server/issues"
             },
-            "time": "2017-06-11T13:06:06+00:00"
+            "time": "2017-06-25T09:57:29+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -1036,16 +1036,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.22.1",
+            "version": "1.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "1e044bc4b34e91743943479f1be7a1d5eb93add0"
+                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/1e044bc4b34e91743943479f1be7a1d5eb93add0",
-                "reference": "1e044bc4b34e91743943479f1be7a1d5eb93add0",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
+                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
                 "shasum": ""
             },
             "require": {
@@ -1066,7 +1066,7 @@
                 "phpunit/phpunit-mock-objects": "2.3.0",
                 "ruflin/elastica": ">=0.90 <3.0",
                 "sentry/sentry": "^0.13",
-                "swiftmailer/swiftmailer": "~5.3"
+                "swiftmailer/swiftmailer": "^5.3|^6.0"
             },
             "suggest": {
                 "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
@@ -1110,7 +1110,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2017-03-13T07:08:03+00:00"
+            "time": "2017-06-19T01:22:40+00:00"
         },
         {
             "name": "paragonie/random_compat",
