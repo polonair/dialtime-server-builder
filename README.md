@@ -1,4 +1,4 @@
 Dialtime Server Builder
 =======================
 
-_version 0.1.25_
+_version 0.1.26_
